@@ -100,4 +100,17 @@ python madpt_eff.py
 
 ![latest fit result](madpt_xs_fit.png)
 
+The easiest way to use the fit is as follows:
+
+```
+>>> import numpy as np
+>>> f = np.poly1d([-1.04e-4, -8.52e-2, 1.42e2])
+>>>
+>>> f(250)
+114.2
+>>>
+>>> f(350)
+99.44
+```
+
 TODO: Run some jobs with more statistics to reduce the spread.
