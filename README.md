@@ -99,3 +99,5 @@ python madpt_eff.py
 ## Latest fit result
 
 ![latest fit result](madpt_xs_fit.png)
+
+TODO: Run some jobs with more statistics to reduce the spread.
