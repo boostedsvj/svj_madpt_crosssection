@@ -113,4 +113,13 @@ The easiest way to use the fit is as follows:
 99.44
 ```
 
+Or use the file [fit.txt](fit.txt) to automatically use the latest result (need to `pip install requests`):
+
+```
+>>> f = np.poly1d(requests.get('https://raw.githubusercontent.com/boostedsvj/svj_madpt_crosssection/main/fit.txt').json())
+>>>
+>>> f(250)
+114.2
+```
+
 TODO: Run some jobs with more statistics to reduce the spread.

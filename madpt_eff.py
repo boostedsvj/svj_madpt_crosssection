@@ -138,6 +138,9 @@ def main():
     plt.savefig('madpt_xs_fit.png', bbox_inches='tight')
     os.system('imgcat madpt_xs_fit.png')
 
+    print('Dumping fit result to fit.txt')
+    with open('fit.txt', 'w') as f:
+        f.write(repr(list(fit)))
 
 
 if __name__ == '__main__':
