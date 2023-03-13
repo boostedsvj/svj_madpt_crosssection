@@ -1,4 +1,4 @@
-# Latestoosted SVJ cross sections
+# Latest boosted SVJ cross sections
 
 ## Get the GenXSecAnalyzer reports
 

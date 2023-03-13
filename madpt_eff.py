@@ -124,6 +124,38 @@ def main():
     ax.scatter(x_raw, y_raw)
     ax.plot(mz_fine, xs_fine, c='orange', label=f'${fit[0]:.2e}\cdot x^{{2}}+{fit[1]:.2e}\cdot x+{fit[2]:.2e}$')
 
+
+    # ___________________________________________________
+    # TEMPORARY EXTRAS FOR PLOTTING
+
+    # GenXSecAnalyzer
+    mz_genxsec = np.array([250., 350., 450.])
+    after_filter_xs = np.array([6.868e+01, 5.597e+01, 4.409e+01])
+    after_filter_xs_err = np.array([1.134e-01, 9.734e-02, 7.976e-02])
+    filter_eff = np.array([5.932e-01, 5.669e-01, 5.493e-01])
+    filter_eff_err = np.array([8.071e-04, 8.217e-04, 8.323e-04])
+    ax.errorbar(
+        mz_genxsec, after_filter_xs/filter_eff, after_filter_xs_err/filter_eff, None,
+        'o', c='red', label='xs using GenXSecAna', markersize=8
+        )
+
+    f_genjetpteff = np.poly1d([3.66e-8, -6.76e-7, 1.12e-5])
+    d = np.load('crosssections_Oct12.npz')
+    mz_oldxs = d['mz']
+    xs_oldxs = d['xs'][:]
+    xs_oldxs_err = d['dxs']
+    keep = (mz_oldxs >= 150.) & (mz_oldxs <= 550.)
+    mz_oldxs = mz_oldxs[keep]
+    xs_oldxs = xs_oldxs[keep]
+    xs_oldxs_err = xs_oldxs_err[keep]
+    xs_oldxs *= f_genjetpteff(300.)
+    xs_oldxs_err *= f_genjetpteff(300.)
+
+    ax.plot(mz_oldxs, xs_oldxs, label='old xs, genjetpt>300')
+    ax.plot(mz_oldxs, d['xs'][keep]*(10./2332.), label='old xs, madpt>300')
+
+
+
     # Fit error: very tiny, ignore
     # err = calc_errs(mz_fine, cov)
     # ax.fill_between(mz_fine, xs_fine-err, xs_fine+err, alpha=.3)
