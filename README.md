@@ -1,4 +1,48 @@
-# Boosted SVJ cross sections with the MadPT patch
+# Latestoosted SVJ cross sections
+
+## Get the GenXSecAnalyzer reports
+
+```bash
+xrdcp root://cmseos.fnal.gov//store/user/lpcdarkqcd/boosted/other/genxsec_output_Mar13.txt .
+```
+
+## Run the fit
+
+```bash
+python crosssections_genxsec.py genxsec_output_Mar13.txt
+```
+
+## Latest fit result
+
+![latest fit result](plots/xs_madpt300.png)
+
+The easiest way to use the fit is as follows:
+
+```
+>>> import numpy as np
+>>> f = np.poly1d([-0.010566138348694975, 9.823072338245781])
+>>>
+>>> f(250)
+7.181537751072037
+>>>
+>>> f(350)
+6.12492391620254
+```
+
+Or use the file [fit_madpt300.txt](fit_madpt300.txt) to automatically use the latest result (need to `pip install requests`):
+
+```
+>>> f = np.poly1d(requests.get('https://raw.githubusercontent.com/boostedsvj/svj_madpt_crosssection/main/fit_madpt300.txt').json())
+>>>
+>>> f(250)
+7.181537751072037
+```
+
+
+
+# BELOW: DEPRECATED SINCE MAR 13 2023
+
+## Boosted SVJ cross sections with the MadPT patch
 
 This repo analyzes the job logs from the signal generation. MadGraph reports the cross section at the end of LHE-format event generation as follows:
 
@@ -76,7 +120,7 @@ The 'filter' in question is the Z2 symmetry filter. For our cross section number
 After matching: total cross section = 9.625e+01 +- 3.003e+00 pb
 ```
 
-## Download the job logs
+### Download the job logs
 
 ```
 mkdir logs
@@ -86,7 +130,7 @@ tar xvf madptsignal_joblogs.tar.gz
 rm madptsignal_joblogs.tar.gz
 ```
 
-## Run the fit
+### Run the fit
 
 ```
 python -m venv env
@@ -96,7 +140,7 @@ pip install numpy matplotlib
 python madpt_eff.py
 ```
 
-## Latest fit result
+### Latest fit result
 
 ![latest fit result](madpt_xs_fit.png)
 
