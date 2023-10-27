@@ -1,0 +1,1084 @@
+
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-200_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-200_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-200_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-200_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 14:49:47 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz200_mdark10_rinv0.3.root
+13-Mar-2023 14:50:03 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz200_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299702, LumiSection 1 on stream 0 at 13-Mar-2023 14:56:52.058 EDT
+  52822.000000    197.270000  57351.790000             1
+   1580.324000     34.081850  57351.790000             3
+   2949.461000     57.240730  57351.790000             2
+ 
+13-Mar-2023 14:56:58 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz200_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		5.282e+04 +/- 1.973e+02		265	265	0	274	274	0	5.109e+04 +/- 5.999e+02		96.7 +/- 1.1	96.7 +/- 1.1
+1		2.949e+03 +/- 5.724e+01		6	6	0	22	22	0	8.044e+02 +/- 2.805e+02		27.3 +/- 9.5	27.3 +/- 9.5
+2		1.580e+03 +/- 3.408e+01		0	0	0	4	4	0	0.000e+00 +/- 0.000e+00		0.0 +/- 0.0	0.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		5.735e+04 +/- 2.082e+02		271	271	0	300	300	0	5.181e+04 +/- 9.964e+02		90.3 +/- 1.7	90.3 +/- 1.7
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 5.735e+04 +- 2.082e+02 pb
+After matching: total cross section = 5.181e+04 +- 9.964e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (7.9719e+06) / (1.55423e+07) = 5.129e-01 +- 3.036e-02
+Filter efficiency (event-level)= (139) / (271) = 5.129e-01 +- 3.036e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.657e+04 +- 1.654e+03 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.763e-02 +- 2.343e-03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-250_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-250_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-250_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-250_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 18:19:14 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz250_mdark10_rinv0.3.root
+13-Mar-2023 18:19:23 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz250_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 18:26:11.049 EDT
+  32321.000000    123.950000  35242.880000             1
+    872.765200     19.534770  35242.880000             3
+   2049.110000     52.035700  35242.880000             2
+ 
+13-Mar-2023 18:26:22 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz250_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		3.232e+04 +/- 1.240e+02		274	274	0	281	281	0	3.152e+04 +/- 3.239e+02		97.5 +/- 0.9	97.5 +/- 0.9
+1		2.049e+03 +/- 5.204e+01		6	6	0	14	14	0	8.782e+02 +/- 2.719e+02		42.9 +/- 13.2	42.9 +/- 13.2
+2		8.728e+02 +/- 1.953e+01		1	1	0	5	5	0	1.746e+02 +/- 1.562e+02		20.0 +/- 17.9	20.0 +/- 17.9
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.524e+04 +/- 1.358e+02		281	281	0	300	300	0	3.301e+04 +/- 5.117e+02		93.7 +/- 1.4	93.7 +/- 1.4
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.524e+04 +- 1.358e+02 pb
+After matching: total cross section = 3.301e+04 +- 5.117e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (4.96925e+06) / (9.90325e+06) = 5.018e-01 +- 2.983e-02
+Filter efficiency (event-level)= (141) / (281) = 5.018e-01 +- 2.983e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 1.656e+04 +- 1.018e+03 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 6.037e-02 +- 3.709e-03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-300_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-300_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-300_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-300_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:04:18 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz300_mdark10_rinv0.3.root
+13-Mar-2023 15:04:25 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz300_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299702, LumiSection 1 on stream 0 at 13-Mar-2023 15:11:17.672 EDT
+  21356.000000     87.362000  23762.190000             1
+    801.038000     17.297530  23762.190000             3
+   1605.150000     40.559030  23762.190000             2
+ 
+13-Mar-2023 15:11:27 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz300_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.136e+04 +/- 8.736e+01		253	253	0	263	263	0	2.054e+04 +/- 2.655e+02		96.2 +/- 1.2	96.2 +/- 1.2
+1		1.605e+03 +/- 4.056e+01		14	14	0	28	28	0	8.026e+02 +/- 1.530e+02		50.0 +/- 9.4	50.0 +/- 9.4
+2		8.010e+02 +/- 1.730e+01		0	0	0	9	9	0	0.000e+00 +/- 0.000e+00		0.0 +/- 0.0	0.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		2.376e+04 +/- 9.786e+01		267	267	0	300	300	0	2.115e+04 +/- 4.380e+02		89.0 +/- 1.8	89.0 +/- 1.8
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 2.376e+04 +- 9.786e+01 pb
+After matching: total cross section = 2.115e+04 +- 4.380e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (3.23166e+06) / (6.3445e+06) = 5.094e-01 +- 3.059e-02
+Filter efficiency (event-level)= (136) / (267) = 5.094e-01 +- 3.059e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 1.077e+04 +- 6.844e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 9.283e-02 +- 5.899e-03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-350_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-350_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-350_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-350_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:11:31 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz350_mdark10_rinv0.3.root
+13-Mar-2023 15:11:40 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz350_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299702, LumiSection 1 on stream 0 at 13-Mar-2023 15:25:42.036 EDT
+  14859.000000     63.897000  16703.790000             1
+    542.781800     10.759130  16703.790000             3
+   1302.010000     32.294410  16703.790000             2
+ 
+13-Mar-2023 15:26:03 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz350_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.486e+04 +/- 6.390e+01		245	245	0	256	256	0	1.422e+04 +/- 1.980e+02		95.7 +/- 1.3	95.7 +/- 1.3
+1		1.302e+03 +/- 3.229e+01		16	16	0	33	33	0	6.313e+02 +/- 1.144e+02		48.5 +/- 8.7	48.5 +/- 8.7
+2		5.428e+02 +/- 1.076e+01		1	1	0	11	11	0	4.934e+01 +/- 4.706e+01		9.1 +/- 8.7	9.1 +/- 8.7
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.670e+04 +/- 7.240e+01		262	262	0	300	300	0	1.459e+04 +/- 3.269e+02		87.3 +/- 1.9	87.3 +/- 1.9
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.670e+04 +- 7.240e+01 pb
+After matching: total cross section = 1.459e+04 +- 3.269e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (2.2216e+06) / (4.37639e+06) = 5.076e-01 +- 3.089e-02
+Filter efficiency (event-level)= (133) / (262) = 5.076e-01 +- 3.089e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 7.405e+03 +- 4.802e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.350e-01 +- 8.757e-03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-400_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-400_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-400_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-400_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:26:07 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz400_mdark10_rinv0.3.root
+13-Mar-2023 15:26:17 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz400_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 15:33:07.622 EDT
+  10754.000000     47.878000  12259.670000             1
+    434.374600      9.065291  12259.670000             3
+   1071.300000     25.932980  12259.670000             2
+ 
+13-Mar-2023 15:33:07 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz400_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.075e+04 +/- 4.788e+01		240	240	0	252	252	0	1.024e+04 +/- 1.513e+02		95.2 +/- 1.3	95.2 +/- 1.3
+1		1.071e+03 +/- 2.593e+01		12	12	0	31	31	0	4.147e+02 +/- 9.426e+01		38.7 +/- 8.7	38.7 +/- 8.7
+2		4.344e+02 +/- 9.065e+00		3	3	0	17	17	0	7.665e+01 +/- 4.019e+01		17.6 +/- 9.2	17.6 +/- 9.2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.226e+04 +/- 5.520e+01		255	255	0	300	300	0	1.042e+04 +/- 2.571e+02		85.0 +/- 2.1	85.0 +/- 2.1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.226e+04 +- 5.520e+01 pb
+After matching: total cross section = 1.042e+04 +- 2.571e+02 pb
+Matching efficiency = 0.8 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (1.50794e+06) / (3.12622e+06) = 4.824e-01 +- 3.129e-02
+Filter efficiency (event-level)= (123) / (255) = 4.824e-01 +- 3.129e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.026e+03 +- 3.489e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.989e-01 +- 1.381e-02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-450_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-450_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-450_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-450_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:33:11 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz450_mdark10_rinv0.3.root
+13-Mar-2023 15:33:20 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz450_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299703, LumiSection 1 on stream 0 at 13-Mar-2023 15:40:08.259 EDT
+   8024.700000     36.730000   9234.189000             1
+    331.605900      6.988645   9234.189000             3
+    877.882800     21.056540   9234.189000             2
+ 
+13-Mar-2023 15:40:18 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz450_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.025e+03 +/- 3.673e+01		253	253	0	270	270	0	7.519e+03 +/- 1.235e+02		93.7 +/- 1.5	93.7 +/- 1.5
+1		8.779e+02 +/- 2.106e+01		9	9	0	17	17	0	4.648e+02 +/- 1.069e+02		52.9 +/- 12.1	52.9 +/- 12.1
+2		3.316e+02 +/- 6.989e+00		3	3	0	13	13	0	7.652e+01 +/- 3.878e+01		23.1 +/- 11.7	23.1 +/- 11.7
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		9.234e+03 +/- 4.291e+01		265	265	0	300	300	0	8.157e+03 +/- 1.753e+02		88.3 +/- 1.9	88.3 +/- 1.9
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 9.234e+03 +- 4.291e+01 pb
+After matching: total cross section = 8.157e+03 +- 1.753e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (1.28355e+06) / (2.44706e+06) = 5.245e-01 +- 3.068e-02
+Filter efficiency (event-level)= (139) / (265) = 5.245e-01 +- 3.068e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 4.279e+03 +- 2.666e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.337e-01 +- 1.457e-02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-500_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-500_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-500_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-500_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:40:22 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz500_mdark10_rinv0.3.root
+13-Mar-2023 15:40:32 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz500_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 15:47:14.102 EDT
+   6136.500000     28.767000   7081.417000             1
+    246.998100      4.797081   7081.417000             3
+    697.919000     17.212330   7081.417000             2
+ 
+13-Mar-2023 15:47:14 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz500_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		6.136e+03 +/- 2.877e+01		254	254	0	264	264	0	5.904e+03 +/- 7.723e+01		96.2 +/- 1.2	96.2 +/- 1.2
+1		6.979e+02 +/- 1.721e+01		11	11	0	23	23	0	3.338e+02 +/- 7.316e+01		47.8 +/- 10.4	47.8 +/- 10.4
+2		2.470e+02 +/- 4.797e+00		4	4	0	13	13	0	7.600e+01 +/- 3.165e+01		30.8 +/- 12.8	30.8 +/- 12.8
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		7.081e+03 +/- 3.386e+01		269	269	0	300	300	0	6.350e+03 +/- 1.281e+02		89.7 +/- 1.8	89.7 +/- 1.8
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 7.081e+03 +- 3.386e+01 pb
+After matching: total cross section = 6.350e+03 +- 1.281e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (892259) / (1.9049e+06) = 4.684e-01 +- 3.042e-02
+Filter efficiency (event-level)= (126) / (269) = 4.684e-01 +- 3.042e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.974e+03 +- 2.023e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.362e-01 +- 2.287e-02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #######################################################################
+>>>     #   boostedSVJ_2018_madpt0_mZprime-550_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #######################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt0_mZprime-550_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt0_mZprime-550_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt0_mZprime-550_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:47:18 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz550_mdark10_rinv0.3.root
+13-Mar-2023 15:47:28 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz550_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 15:54:16.958 EDT
+   4787.400000     22.938000   5559.010000             1
+    184.583300      4.371486   5559.010000             3
+    587.027000     14.331960   5559.010000             2
+ 
+13-Mar-2023 15:54:25 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt0/miniaod/madpt0_mz550_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		4.787e+03 +/- 2.294e+01		240	240	0	264	264	0	4.352e+03 +/- 8.723e+01		90.9 +/- 1.8	90.9 +/- 1.8
+1		5.870e+02 +/- 1.433e+01		16	16	0	30	30	0	3.131e+02 +/- 5.401e+01		53.3 +/- 9.1	53.3 +/- 9.1
+2		1.846e+02 +/- 4.371e+00		1	1	0	6	6	0	3.076e+01 +/- 2.809e+01		16.7 +/- 15.2	16.7 +/- 15.2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		5.559e+03 +/- 2.740e+01		257	257	0	300	300	0	4.762e+03 +/- 1.149e+02		85.7 +/- 2.0	85.7 +/- 2.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 5.559e+03 +- 2.740e+01 pb
+After matching: total cross section = 4.762e+03 +- 1.149e+02 pb
+Matching efficiency = 0.9 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (750466) / (1.42867e+06) = 5.253e-01 +- 3.115e-02
+Filter efficiency (event-level)= (135) / (257) = 5.253e-01 +- 3.115e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.502e+03 +- 1.601e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.998e-01 +- 2.559e-02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  3                   3
+
+dropped waiting message count 0
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-200_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-200_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-200_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-200_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 15:59:43 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz200_mdark10_rinv0.3.root
+13-Mar-2023 15:59:53 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz200_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 2500009, LumiSection 1 on stream 0 at 13-Mar-2023 16:13:49.559 EDT
+     76.332930      1.491299    161.994000             3
+     85.661100      1.477689    161.994000             2
+ 
+13-Mar-2023 16:14:25 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz200_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.566e+01 +/- 1.478e+00		197	197	0	260	260	0	6.490e+01 +/- 2.537e+00		75.8 +/- 2.7	75.8 +/- 2.7
+1		7.633e+01 +/- 1.491e+00		169	169	0	240	240	0	5.375e+01 +/- 2.482e+00		70.4 +/- 2.9	70.4 +/- 2.9
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.620e+02 +/- 2.099e+00		366	366	0	500	500	0	1.186e+02 +/- 3.558e+00		73.2 +/- 2.0	73.2 +/- 2.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.620e+02 +- 2.099e+00 pb
+After matching: total cross section = 1.186e+02 +- 3.558e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (27863) / (59289.8) = 4.699e-01 +- 2.609e-02
+Filter efficiency (event-level)= (172) / (366) = 4.699e-01 +- 2.609e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.573e+01 +- 3.516e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.794e+01 +- 1.133e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-250_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-250_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-250_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-250_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 16:14:29 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz250_mdark10_rinv0.3.root
+13-Mar-2023 16:14:39 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz250_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 2500003, LumiSection 1 on stream 0 at 13-Mar-2023 16:28:43.094 EDT
+     64.234270      1.354671    151.914000             3
+     87.679700      1.554608    151.914000             2
+ 
+13-Mar-2023 16:29:18 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz250_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.768e+01 +/- 1.555e+00		220	220	0	288	288	0	6.698e+01 +/- 2.495e+00		76.4 +/- 2.5	76.4 +/- 2.5
+1		6.423e+01 +/- 1.355e+00		151	151	0	212	212	0	4.575e+01 +/- 2.218e+00		71.2 +/- 3.1	71.2 +/- 3.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.519e+02 +/- 2.062e+00		371	371	0	500	500	0	1.127e+02 +/- 3.343e+00		74.2 +/- 2.0	74.2 +/- 2.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.519e+02 +- 2.062e+00 pb
+After matching: total cross section = 1.127e+02 +- 3.343e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (28104.1) / (56360.1) = 4.987e-01 +- 2.596e-02
+Filter efficiency (event-level)= (185) / (371) = 4.987e-01 +- 2.596e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.621e+01 +- 3.368e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.779e+01 +- 1.066e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-300_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-300_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-300_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-300_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 16:29:25 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz300_mdark10_rinv0.3.root
+13-Mar-2023 16:29:34 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz300_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 16:36:16.010 EDT
+     57.393390      1.228607    144.613400             3
+     87.220000      1.782255    144.613400             2
+ 
+13-Mar-2023 16:36:16 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz300_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.722e+01 +/- 1.782e+00		134	134	0	175	175	0	6.679e+01 +/- 3.108e+00		76.6 +/- 3.2	76.6 +/- 3.2
+1		5.739e+01 +/- 1.229e+00		91	91	0	125	125	0	4.178e+01 +/- 2.453e+00		72.8 +/- 4.0	72.8 +/- 4.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.446e+02 +/- 2.165e+00		225	225	0	300	300	0	1.085e+02 +/- 3.963e+00		75.0 +/- 2.5	75.0 +/- 2.5
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.446e+02 +- 2.165e+00 pb
+After matching: total cross section = 1.085e+02 +- 3.963e+00 pb
+Matching efficiency = 0.8 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (16341.3) / (32538) = 5.022e-01 +- 3.333e-02
+Filter efficiency (event-level)= (113) / (225) = 5.022e-01 +- 3.333e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.447e+01 +- 4.127e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.836e+01 +- 1.391e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-350_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-350_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-350_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-350_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 16:36:20 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz350_mdark10_rinv0.3.root
+13-Mar-2023 16:36:29 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz350_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 2500001, LumiSection 1 on stream 0 at 13-Mar-2023 16:50:22.263 EDT
+     47.538400      0.957337    133.154400             3
+     85.616000      1.483399    133.154400             2
+ 
+13-Mar-2023 16:50:58 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz350_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.562e+01 +/- 1.483e+00		246	246	0	323	323	0	6.521e+01 +/- 2.323e+00		76.2 +/- 2.4	76.2 +/- 2.4
+1		4.754e+01 +/- 9.573e-01		124	124	0	177	177	0	3.330e+01 +/- 1.769e+00		70.1 +/- 3.4	70.1 +/- 3.4
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.332e+02 +/- 1.765e+00		370	370	0	500	500	0	9.853e+01 +/- 2.921e+00		74.0 +/- 2.0	74.0 +/- 2.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.332e+02 +- 1.765e+00 pb
+After matching: total cross section = 9.853e+01 +- 2.921e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (25965.1) / (49267.1) = 5.270e-01 +- 2.596e-02
+Filter efficiency (event-level)= (195) / (370) = 5.270e-01 +- 2.596e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.193e+01 +- 2.985e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.926e+01 +- 1.107e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-400_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-400_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-400_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-400_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 16:51:02 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz400_mdark10_rinv0.3.root
+13-Mar-2023 16:51:11 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz400_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299701, LumiSection 1 on stream 0 at 13-Mar-2023 16:57:52.940 EDT
+     42.613750      0.797726    124.254800             3
+     81.641000      1.681014    124.254800             2
+ 
+13-Mar-2023 16:57:52 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz400_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.164e+01 +/- 1.681e+00		154	154	0	209	209	0	6.016e+01 +/- 2.778e+00		73.7 +/- 3.0	73.7 +/- 3.0
+1		4.261e+01 +/- 7.977e-01		61	61	0	91	91	0	2.857e+01 +/- 2.167e+00		67.0 +/- 4.9	67.0 +/- 4.9
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.243e+02 +/- 1.861e+00		215	215	0	300	300	0	8.905e+01 +/- 3.497e+00		71.7 +/- 2.6	71.7 +/- 2.6
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.243e+02 +- 1.861e+00 pb
+After matching: total cross section = 8.905e+01 +- 3.497e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (13171) / (26714.8) = 4.930e-01 +- 3.410e-02
+Filter efficiency (event-level)= (106) / (215) = 4.930e-01 +- 3.410e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 4.390e+01 +- 3.492e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.278e+01 +- 1.812e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-450_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-450_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-450_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-450_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 17:45:06 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz450_mdark10_rinv0.3.root
+13-Mar-2023 17:45:16 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz450_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 2500001, LumiSection 1 on stream 0 at 13-Mar-2023 17:59:20.293 EDT
+     37.127620      0.714208    113.780600             3
+     76.653000      1.338709    113.780600             2
+ 
+13-Mar-2023 17:59:47 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz450_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		7.665e+01 +/- 1.339e+00		258	258	0	348	348	0	5.683e+01 +/- 2.055e+00		74.1 +/- 2.3	74.1 +/- 2.3
+1		3.713e+01 +/- 7.142e-01		95	95	0	152	152	0	2.320e+01 +/- 1.525e+00		62.5 +/- 3.9	62.5 +/- 3.9
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.138e+02 +/- 1.517e+00		353	353	0	500	500	0	8.033e+01 +/- 2.554e+00		70.6 +/- 2.0	70.6 +/- 2.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.138e+02 +- 1.517e+00 pb
+After matching: total cross section = 8.033e+01 +- 2.554e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (22983.7) / (40164.6) = 5.722e-01 +- 2.633e-02
+Filter efficiency (event-level)= (202) / (353) = 5.722e-01 +- 2.633e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 4.597e+01 +- 2.571e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.175e+01 +- 1.217e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-500_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-500_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-500_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-500_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 16:58:00 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz500_mdark10_rinv0.3.root
+13-Mar-2023 16:58:09 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz500_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 299703, LumiSection 1 on stream 0 at 13-Mar-2023 17:04:53.512 EDT
+     32.985860      0.608011    101.942900             3
+     68.957000      1.403187    101.942900             2
+ 
+13-Mar-2023 17:04:53 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz500_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		6.896e+01 +/- 1.403e+00		146	146	0	207	207	0	4.864e+01 +/- 2.399e+00		70.5 +/- 3.2	70.5 +/- 3.2
+1		3.299e+01 +/- 6.080e-01		63	63	0	93	93	0	2.235e+01 +/- 1.651e+00		67.7 +/- 4.8	67.7 +/- 4.8
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.019e+02 +/- 1.529e+00		209	209	0	300	300	0	7.102e+01 +/- 2.908e+00		69.7 +/- 2.7	69.7 +/- 2.7
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.019e+02 +- 1.529e+00 pb
+After matching: total cross section = 7.102e+01 +- 2.908e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (11417.6) / (21306.1) = 5.359e-01 +- 3.450e-02
+Filter efficiency (event-level)= (112) / (209) = 5.359e-01 +- 3.450e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 3.806e+01 +- 2.904e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.628e+01 +- 2.005e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     #########################################################################
+>>>     #   boostedSVJ_2018_madpt300_mZprime-550_mDark-10_rinv-0p3_alpha-peak   #
+>>>     #########################################################################
+>>> 
+>>> Getting  root files for "boostedSVJ_2018_madpt300_mZprime-550_mDark-10_rinv-0p3_alpha-peak"...
+>>> log file "log/boostedSVJ_2018_madpt300_mZprime-550_mDark-10_rinv-0p3_alpha-peak.log"
+>>> Calculate cross section:
+>>> [40m[37mcmsRun bsvj_xsecfinder_cfg.py name=boostedSVJ_2018_madpt300_mZprime-550_mDark-10_rinv-0p3_alpha-peak n_events=1e7[m
+13-Mar-2023 17:04:57 EDT  Initiating request to open file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz550_mdark10_rinv0.3.root
+13-Mar-2023 17:05:06 EDT  Successfully opened file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz550_mdark10_rinv0.3.root
+Begin processing the 1st record. Run 1, Event 2500003, LumiSection 1 on stream 0 at 13-Mar-2023 17:19:04.710 EDT
+     27.534880      0.496289     91.165880             3
+     63.631000      1.098945     91.165880             2
+ 
+13-Mar-2023 17:19:22 EDT  Closed file file:/mnt/hadoop/cms/store/user/snabili/SIG/xsec_from_lxplus/madpt300/miniaod/madpt300_mz550_mdark10_rinv0.3.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		6.363e+01 +/- 1.099e+00		241	241	0	346	346	0	4.432e+01 +/- 1.749e+00		69.7 +/- 2.5	69.7 +/- 2.5
+1		2.753e+01 +/- 4.963e-01		92	92	0	154	154	0	1.645e+01 +/- 1.128e+00		59.7 +/- 4.0	59.7 +/- 4.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		9.117e+01 +/- 1.206e+00		333	333	0	500	500	0	6.072e+01 +/- 2.084e+00		66.6 +/- 2.1	66.6 +/- 2.1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 9.117e+01 +- 1.206e+00 pb
+After matching: total cross section = 6.072e+01 +- 2.084e+00 pb
+Matching efficiency = 0.7 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (14768.9) / (30358.2) = 4.865e-01 +- 2.739e-02
+Filter efficiency (event-level)= (162) / (333) = 4.865e-01 +- 2.739e-02    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.954e+01 +- 1.948e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.385e+01 +- 2.233e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 fileAction           -s file_close                             1        1
+    3 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 fileAction           PostGlobalEndRun                  
+    3 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0
+
+
+
+>>>     ##############################
+>>>     #   Cross sections summary   #
+>>>     ##############################
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-200_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.657e+04 +- 1.654e+03 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-250_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.657e+04 +- 1.654e+03 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-300_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m1.077e+04 +- 6.844e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-350_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m7.405e+03 +- 4.802e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-400_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m5.026e+03 +- 3.489e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-450_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m4.279e+03 +- 2.666e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-500_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.974e+03 +- 2.023e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-550_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.502e+03 +- 1.601e+02 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt0_mZprime-90_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.593e+05 +- 4.100e+03 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-200_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m5.573e+01 +- 3.516e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-250_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m5.621e+01 +- 3.368e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-300_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m5.447e+01 +- 4.127e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-350_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m5.193e+01 +- 2.985e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-400_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m4.390e+01 +- 3.492e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-450_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-500_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m3.806e+01 +- 2.904e+00 pb[m 
+>>> 
+>>> [40m[37mboostedSVJ_2018_madpt300_mZprime-550_mDark-10_rinv-0p3_alpha-peak:[m
+>>>   [40m[37m2.954e+01 +- 1.948e+00 pb[m 
+>>> 
+>>> 
+>>> done in 149 minutes 44 seconds
+
